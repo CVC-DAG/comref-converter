@@ -1,0 +1,13 @@
+@startuml
+abstract class BaseNode{
+    abstract Any accept(visitor Visitor)
+}
+
+abstract class Visitor{
+    abstract Any visit_score(score: Score)
+}
+
+abstract class Visitor{
+    abstract Any visit_score(score: Score)
+}
+@enduml

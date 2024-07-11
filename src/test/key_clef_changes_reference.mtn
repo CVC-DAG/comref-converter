@@ -1,0 +1,266 @@
+<score id="key_clef_changes">
+    <measure part_id="P1" measure_id="1" staves="1">
+        <attributes delta="0">
+            <clef type="G" staff="1" position="4" id="1" />
+            <key staff="1">
+                <accidental type="sharp" position="5" id="10" />
+                <accidental type="sharp" position="6" id="12" />
+                <accidental type="sharp" position="7" id="7" />
+                <accidental type="sharp" position="8" id="9" />
+                <accidental type="sharp" position="9" id="11" />
+                <accidental type="sharp" position="10" id="6" />
+                <accidental type="sharp" position="11" id="8" />
+            </key>
+            <time_signature staff="1">
+                <numerator>
+                    <number type="4" id="4" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="5" />
+                </denominator>
+            </time_signature>
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="13" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="2" staves="1">
+        <attributes delta="0">
+            <clef type="G" oct="1" staff="1" position="4" id="24" />
+            <key staff="1">
+                <accidental type="flat" position="3" id="31" />
+                <accidental type="flat" position="4" id="29" />
+                <accidental type="flat" position="5" id="27" />
+                <accidental type="flat" position="6" id="25" />
+                <accidental type="flat" position="7" id="30" />
+                <accidental type="flat" position="8" id="28" />
+                <accidental type="flat" position="9" id="26" />
+            </key>
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="32" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="3" staves="1">
+        <attributes delta="0">
+            <clef type="G" oct="2" staff="1" position="4" id="43" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="44" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="4" staves="1">
+        <attributes delta="0">
+            <clef type="G" oct="-1" staff="1" position="4" id="55" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="56" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="5" staves="1">
+        <attributes delta="0">
+            <clef type="C" staff="1" position="6" id="67" />
+            <key staff="1">
+                <accidental type="flat" position="2" id="74" />
+                <accidental type="flat" position="3" id="72" />
+                <accidental type="flat" position="4" id="70" />
+                <accidental type="flat" position="5" id="68" />
+                <accidental type="flat" position="6" id="73" />
+                <accidental type="flat" position="7" id="71" />
+                <accidental type="flat" position="8" id="69" />
+            </key>
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="75" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="6" staves="1">
+        <attributes delta="0">
+            <clef type="C" staff="1" position="8" id="86" />
+            <key staff="1">
+                <accidental type="sharp" position="5" id="87" />
+                <accidental type="sharp" position="6" id="89" />
+                <accidental type="sharp" position="7" id="91" />
+                <accidental type="sharp" position="8" id="93" />
+                <accidental type="sharp" position="9" id="88" />
+                <accidental type="sharp" position="10" id="90" />
+                <accidental type="sharp" position="11" id="92" />
+            </key>
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="94" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="7" staves="1">
+        <attributes delta="0">
+            <clef type="F" staff="1" position="8" id="105" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="106" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="8" staves="1">
+        <attributes delta="0">
+            <clef type="F" oct="1" staff="1" position="8" id="117" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="118" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="9" staves="1">
+        <attributes delta="0">
+            <clef type="F" oct="-1" staff="1" position="8" id="129" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="130" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="10" staves="1">
+        <attributes delta="0">
+            <clef type="G" oct="-2" staff="1" position="4" id="141" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="142" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="11" staves="1">
+        <attributes delta="0">
+            <clef type="G" oct="-1" staff="1" position="4" id="153" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="154" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="12" staves="1">
+        <attributes delta="0">
+            <clef type="C" staff="1" position="2" id="165" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="166" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="13" staves="1">
+        <attributes delta="0">
+            <clef type="C" staff="1" position="4" id="177" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="178" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="14" staves="1">
+        <attributes delta="0">
+            <clef type="C" oct="-1" staff="1" position="8" id="189" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="190" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="15" staves="1">
+        <attributes delta="0">
+            <clef type="C" staff="1" position="10" id="201" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="202" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="16" staves="1">
+        <attributes delta="0">
+            <clef type="F" oct="2" staff="1" position="8" id="213" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="214" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="17" staves="1">
+        <attributes delta="0">
+            <clef type="F" oct="-2" staff="1" position="8" id="225" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="226" />
+                </note>
+            </chord>
+        </note_group>
+    </measure>
+    <measure part_id="P1" measure_id="18" staves="1">
+        <attributes delta="0">
+            <clef type="F" staff="1" position="6" id="237" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="238" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="239" />
+            <barline_tok type="heavy" id="240" />
+        </barline>
+    </measure>
+</score>

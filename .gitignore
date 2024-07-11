@@ -1,0 +1,17 @@
+*.pyc
+*.log
+.vscode/*
+.idea/*
+*.pytest_cache
+*.mypy_cache
+*failed.txt
+*__pycache__
+*.sublime-project
+*.sublime-workspace
+*.egg-info
+*.json
+*.dat
+.coverage
+src/test/*_generated.mtn
+*.mscz~
+*.mscz.autosave

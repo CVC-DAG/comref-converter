@@ -1,0 +1,38 @@
+<score id="midmeasure_change">
+    <measure part_id="P1" measure_id="1" staves="1">
+        <attributes delta="0">
+            <clef type="G" staff="1" position="4" id="1" />
+            <time_signature staff="1">
+                <numerator>
+                    <number type="4" id="4" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="5" />
+                </denominator>
+            </time_signature>
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <stem type="down" id="7" />
+                <note>
+                    <notehead type="white" staff="1" position="6" id="8" />
+                </note>
+            </chord>
+        </note_group>
+        <attributes delta="2">
+            <clef type="F" staff="1" position="8" id="6" />
+        </attributes>
+        <note_group delta="2">
+            <chord delta="2">
+                <stem type="down" id="9" />
+                <note>
+                    <notehead type="white" staff="1" position="6" id="10" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="11" />
+            <barline_tok type="heavy" id="12" />
+        </barline>
+    </measure>
+</score>

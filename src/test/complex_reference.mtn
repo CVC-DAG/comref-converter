@@ -1,0 +1,578 @@
+<score id="complex">
+    <measure part_id="P1" measure_id="1" staves="3">
+        <attributes delta="0">
+            <clef type="G" staff="1" position="4" id="1" />
+            <clef type="G" staff="2" position="4" id="2" />
+            <clef type="F" staff="3" position="8" id="3" />
+            <time_signature staff="1">
+                <numerator>
+                    <number type="4" id="6" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="7" />
+                </denominator>
+            </time_signature>
+            <time_signature staff="2">
+                <numerator>
+                    <number type="4" id="8" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="9" />
+                </denominator>
+            </time_signature>
+            <time_signature staff="3">
+                <numerator>
+                    <number type="4" id="10" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="11" />
+                </denominator>
+            </time_signature>
+        </attributes>
+        <!-- ================= CORRECTED ================= -->
+        <direction delta="0">
+            <dyn type="pp" id="64" />
+            <wedge type="diminuendo" id="81" />
+        </direction>
+        <!-- ================= CORRECTED ================= -->
+        <rest delta="0">
+            <rest type="half" staff="1" id="33" />
+        </rest>
+        <note_group delta="0">
+            <chord delta="0">
+                <stem type="up" id="12" />
+                <note>
+                    <notehead type="white" staff="1" position="2" id="14" />
+                    <slur type="start" id="13" />
+                </note>
+                <note>
+                    <notehead type="white" staff="1" position="5" id="16" />
+                </note>
+                <note>
+                    <notehead type="white" staff="1" position="7" id="18" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="0">
+            <chord delta="0">
+                <stem type="up" id="65" />
+                <note>
+                    <notehead type="white" staff="2" position="0" id="67" />
+                    <accent id="66" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="0">
+            <chord delta="0">
+                <stem type="up" id="82" />
+                <note>
+                    <notehead type="white" staff="3" position="5" id="84" />
+                    <accent id="83" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="0">
+            <beam id="107" />
+            <chord delta="0">
+                <stem type="down" id="105" />
+                <note>
+                    <notehead type="black" staff="3" position="10" id="106" />
+                </note>
+            </chord>
+            <chord delta="1/2">
+                <stem type="down" id="108" />
+                <note>
+                    <notehead type="black" staff="3" position="9" id="109" />
+                </note>
+            </chord>
+        <!-- ================= CORRECTED ================= -->
+        </note_group>
+        <rest delta="1">
+            <rest type="quarter" staff="3" id="110" />
+        </rest>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="2">
+            <beam id="38" />
+            <beam id="39" />
+            <chord delta="2">
+                <stem type="down" id="35" />
+                <note>
+                    <notehead type="black" staff="1" position="2" id="37" />
+                    <accidental type="double_flat" id="34" />
+                    <staccato id="36" />
+                </note>
+            </chord>
+            <note_group delta="9/4">
+                <beam id="43" />
+                <chord delta="9/4">
+                    <stem type="down" id="41" />
+                    <note>
+                        <notehead type="black" staff="1" position="2" id="42" />
+                        <accidental type="flat" id="40" />
+                    </note>
+                </chord>
+                <chord delta="19/8">
+                    <stem type="down" id="45" />
+                    <note>
+                        <notehead type="black" staff="1" position="2" id="46" />
+                        <accidental type="natural" id="44" />
+                    </note>
+                </chord>
+            </note_group>
+            <chord delta="5/2">
+                <stem type="down" id="48" />
+                <note>
+                    <notehead type="black" staff="1" position="2" id="49" />
+                    <accidental type="sharp" id="47" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="2">
+            <beam id="22" />
+            <chord delta="2">
+                <stem type="up" id="19" />
+                <note>
+                    <notehead type="black" staff="1" position="7" id="21" />
+                    <tied type="start" id="20" />
+                </note>
+            </chord>
+            <note_group delta="5/2">
+                <beam id="25" />
+                <chord delta="5/2">
+                    <stem type="up" id="23" />
+                    <note>
+                        <notehead type="black" staff="1" position="7" id="24" />
+                        <tied type="stop" id="20" />
+                    </note>
+                </chord>
+                <chord delta="11/4">
+                    <stem type="up" id="26" />
+                    <note>
+                        <notehead type="black" staff="1" position="8" id="27" />
+                    </note>
+                </chord>
+            </note_group>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="2">
+            <beam id="70" />
+            <chord delta="2">
+                <stem type="up" id="68" />
+                <note>
+                    <notehead type="black" staff="2" position="5" id="69" />
+                </note>
+            </chord>
+            <note_group delta="5/2">
+                <beam id="73" />
+                <chord delta="5/2">
+                    <stem type="up" id="71" />
+                    <note>
+                        <notehead type="black" staff="2" position="6" id="72" />
+                    </note>
+                </chord>
+                <chord delta="11/4">
+                    <stem type="up" id="74" />
+                    <note>
+                        <notehead type="black" staff="2" position="6" id="75" />
+                    </note>
+                </chord>
+            </note_group>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="2">
+            <beam id="87" />
+            <chord delta="2">
+                <stem type="up" id="85" />
+                <note>
+                    <notehead type="black" staff="3" position="5" id="86" />
+                </note>
+            </chord>
+            <note_group delta="5/2">
+                <beam id="90" />
+                <note_group delta="5/2">
+                    <beam id="91" />
+                    <chord delta="5/2">
+                        <stem type="up" id="88" />
+                        <note>
+                            <notehead type="black" staff="3" position="6" id="89" />
+                        </note>
+                    </chord>
+                    <chord delta="21/8">
+                        <stem type="up" id="92" />
+                        <note>
+                            <notehead type="black" staff="3" position="6" id="93" />
+                        </note>
+                    </chord>
+                </note_group>
+                <chord delta="11/4">
+                    <stem type="up" id="94" />
+                    <note>
+                        <notehead type="black" staff="3" position="7" id="95" />
+                    </note>
+                </chord>
+            </note_group>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="2">
+            <beam id="113" />
+            <chord delta="2">
+                <stem type="down" id="111" />
+                <note>
+                    <notehead type="black" staff="3" position="5" id="112" />
+                </note>
+            </chord>
+            <chord delta="5/2">
+                <stem type="down" id="114" />
+                <note>
+                    <notehead type="black" staff="3" position="6" id="115" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <rest delta="11/4">
+            <rest type="16th" staff="1" id="50" />
+        </rest>
+        <!-- ================= CORRECTED ================= -->
+        <rest delta="3">
+            <rest type="quarter" staff="3" id="116" />
+        </rest>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="3">
+            <flag id="55" />
+            <flag id="56" />
+            <chord delta="3">
+                <stem type="down" id="52" />
+                <note>
+                    <notehead type="black" staff="1" position="3" id="54" />
+                    <accidental type="double_sharp" id="51" />
+                    <staccato id="53" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="3">
+            <beam id="30" />
+            <chord delta="3">
+                <stem type="up" id="28" />
+                <note>
+                    <notehead type="black" staff="1" position="8" id="29" />
+                </note>
+            </chord>
+            <chord delta="7/2">
+                <stem type="up" id="31" />
+                <note>
+                    <notehead type="black" staff="1" position="6" id="32" />
+                    <slur type="stop" id="13" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="3">
+            <beam id="78" />
+            <chord delta="3">
+                <stem type="down" id="76" />
+                <note>
+                    <notehead type="black" staff="2" position="7" id="77" />
+                </note>
+            </chord>
+            <chord delta="7/2">
+                <stem type="down" id="79" />
+                <note>
+                    <notehead type="black" staff="2" position="7" id="80" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="3">
+            <beam id="98" />
+            <beam id="99" />
+            <beam id="100" />
+            <chord delta="3">
+                <stem type="up" id="96" />
+                <note>
+                    <notehead type="black" staff="3" position="8" id="97" />
+                </note>
+            </chord>
+            <chord delta="25/8">
+                <stem type="up" id="101" />
+                <note>
+                    <notehead type="black" staff="3" position="8" id="102" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <rest delta="13/4">
+            <rest type="16th" staff="1" id="57" />
+        </rest>
+        <!-- ================= CORRECTED ================= -->
+        <rest delta="13/4">
+            <rest type="16th" staff="3" id="103" />
+        </rest>
+        <!-- ================= CORRECTED ================= -->
+        <rest delta="7/2">
+            <rest type="eighth" staff="3" id="104" />
+        </rest>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="7/2">
+            <flag id="61" />
+            <flag id="62" />
+            <chord delta="7/2">
+                <stem type="down" id="59" />
+                <note>
+                    <notehead type="black" staff="1" position="3" id="60" />
+                    <accidental type="natural" id="58" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <rest delta="15/4">
+            <rest type="16th" staff="1" id="63" />
+        </rest>
+        <!-- ================= CORRECTED ================= -->
+        <direction delta="4">
+            <wedge type="stop" id="81" />
+        </direction>
+        <!-- ================= CORRECTED ================= -->
+        <barline delta="4">
+            <barline_tok type="regular" id="117" />
+            <barline_tok type="regular" id="118" />
+        </barline>
+        <!-- ================= CORRECTED ================= -->
+    </measure>
+    <measure part_id="P1" measure_id="2" staves="3">
+        <barline delta="0">
+            <barline_tok type="regular" id="117" />
+            <barline_tok type="regular" id="118" />
+        </barline>
+        <!-- ================= CORRECTED ================= -->
+        <attributes delta="0">
+            <clef type="C" staff="1" position="8" id="128" />
+            <clef type="C" staff="2" position="6" id="129" />
+            <clef type="F" oct="-1" staff="3" position="8" id="130" />
+            <key staff="1">
+                <accidental type="sharp" position="4" id="144" />
+                <accidental type="sharp" position="5" id="139" />
+                <accidental type="sharp" position="6" id="141" />
+                <accidental type="sharp" position="7" id="143" />
+                <accidental type="sharp" position="8" id="145" />
+                <accidental type="sharp" position="9" id="140" />
+                <accidental type="sharp" position="10" id="142" />
+            </key>
+            <key staff="2">
+                <accidental type="sharp" position="4" id="139" />
+                <accidental type="sharp" position="5" id="150" />
+                <accidental type="sharp" position="6" id="152" />
+                <accidental type="sharp" position="7" id="147" />
+                <accidental type="sharp" position="8" id="149" />
+                <accidental type="sharp" position="9" id="151" />
+                <accidental type="sharp" position="10" id="146" />
+            </key>
+            <key staff="3">
+                <accidental type="sharp" position="3" id="157" />
+                <accidental type="sharp" position="4" id="159" />
+                <accidental type="sharp" position="5" id="154" />
+                <accidental type="sharp" position="6" id="156" />
+                <accidental type="sharp" position="7" id="158" />
+                <accidental type="sharp" position="8" id="153" />
+                <accidental type="sharp" position="9" id="155" />
+            </key>
+            <time_signature staff="1">
+                <numerator>
+                    <number type="3" id="133" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="134" />
+                </denominator>
+            </time_signature>
+            <time_signature staff="2">
+                <numerator>
+                    <number type="3" id="135" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="136" />
+                </denominator>
+            </time_signature>
+            <time_signature staff="3">
+                <numerator>
+                    <number type="3" id="137" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="138" />
+                </denominator>
+            </time_signature>
+        </attributes>
+        <!--  ================= CORRECTED ================= -->
+        <note_group delta="0">
+            <beam id="162" />
+            <chord delta="0">
+                <stem type="up" id="160" />
+                <note>
+                    <notehead type="black" staff="1" position="-4" id="161" />
+                </note>
+            </chord>
+            <chord delta="1/2">
+                <stem type="up" id="163" />
+                <note>
+                    <notehead type="black" staff="1" position="-1" id="164" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="0">
+            <beam id="177" />
+            <chord delta="0">
+                <stem type="up" id="175" />
+                <note>
+                    <notehead type="black" staff="2" position="6" id="176" />
+                </note>
+            </chord>
+            <chord delta="1/2">
+                <stem type="up" id="178" />
+                <note>
+                    <notehead type="cross" staff="2" position="5" id="180" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="0">
+            <beam id="195" />
+            <note_group delta="0">
+                <beam id="196" />
+                <chord delta="0">
+                    <stem type="up" id="193" />
+                    <note>
+                        <notehead type="black" staff="3" position="5" id="194" />
+                    </note>
+                </chord>
+                <chord delta="1/4">
+                    <stem type="up" id="197" />
+                    <note>
+                        <notehead type="black" staff="3" position="4" id="198" />
+                    </note>
+                </chord>
+                <chord delta="1/2">
+                    <stem type="up" id="199" />
+                    <note>
+                        <notehead type="black" staff="3" position="5" id="200" />
+                    </note>
+                </chord>
+            </note_group>
+            <note_group delta="3/4">
+                <beam id="203" />
+                <beam id="204" />
+                <beam id="205" />
+                <chord delta="3/4">
+                    <stem type="up" id="201" />
+                    <note>
+                        <notehead type="black" staff="3" position="5" id="202" />
+                    </note>
+                </chord>
+                <chord delta="13/16">
+                    <stem type="up" id="206" />
+                    <note>
+                        <notehead type="black" staff="3" position="5" id="207" />
+                    </note>
+                </chord>
+            </note_group>
+            <note_group delta="7/8">
+                <beam id="210" />
+                <beam id="211" />
+                <beam id="212" />
+                <chord delta="7/8">
+                    <stem type="up" id="208" />
+                    <note>
+                        <notehead type="black" staff="3" position="5" id="209" />
+                    </note>
+                </chord>
+                <chord delta="15/16">
+                    <stem type="up" id="213" />
+                    <note>
+                        <notehead type="black" staff="3" position="5" id="214" />
+                    </note>
+                </chord>
+            </note_group>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <rest delta="1">
+            <rest type="quarter" staff="3" id="215" />
+        </rest>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="1">
+            <beam id="167" />
+            <chord delta="1">
+                <stem type="down" id="165" />
+                <note>
+                    <notehead type="black" staff="1" position="5" id="166" />
+                </note>
+            </chord>
+            <chord delta="3/2">
+                <stem type="down" id="168" />
+                <note>
+                    <notehead type="black" staff="1" position="11" id="169" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="1">
+            <beam id="183" />
+            <chord delta="1">
+                <stem type="up" id="181" />
+                <note>
+                    <notehead type="black" staff="2" position="5" id="182" />
+                </note>
+            </chord>
+            <chord delta="3/2">
+                <stem type="up" id="184" />
+                <note>
+                    <notehead type="diamond" staff="2" position="5" id="186" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <rest delta="2">
+            <rest type="quarter" staff="3" id="216" />
+        </rest>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="2">
+            <beam id="172" />
+            <chord delta="2">
+                <stem type="down" id="170" />
+                <note>
+                    <notehead type="black" staff="1" position="19" id="171" />
+                </note>
+            </chord>
+            <chord delta="5/2">
+                <stem type="down" id="173" />
+                <note>
+                    <notehead type="black" staff="1" position="29" id="174" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <note_group delta="2">
+            <beam id="190" />
+            <chord delta="2">
+                <stem type="down" id="187" />
+                <note>
+                    <notehead type="inverted-triangle" staff="2" position="5" id="189" />
+                </note>
+            </chord>
+            <chord delta="5/2">
+                <stem type="down" id="191" />
+                <note>
+                    <notehead type="black" staff="2" position="7" id="192" />
+                </note>
+            </chord>
+        </note_group>
+        <!-- ================= CORRECTED ================= -->
+        <barline delta="3">
+            <barline_tok type="regular" id="217" />
+            <barline_tok type="heavy" id="218" />
+        </barline>
+        <!-- ================= CORRECTED ================= -->
+    </measure>
+</score>

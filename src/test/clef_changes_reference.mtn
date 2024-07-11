@@ -1,0 +1,333 @@
+<score id="clef_changes">
+    <measure part_id="P1" measure_id="1" staves="1">
+        <attributes delta="0">
+            <clef type="G" staff="1" position="4" id="1" />
+            <time_signature staff="1">
+                <numerator>
+                    <number type="4" id="4" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="5" />
+                </denominator>
+            </time_signature>
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="6" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1001" />
+        </barline>
+    </measure>
+    <!-- CORRECTED -->
+    <measure part_id="P1" measure_id="2" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1001" />
+        </barline>
+        <attributes delta="0">
+            <clef type="G" oct="1" staff="1" position="4" id="10" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="11" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1002" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="3" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1002" />
+        </barline>
+        <attributes delta="0">
+            <clef type="G" oct="2" staff="1" position="4" id="15" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="16" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1003" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="4" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1003" />
+        </barline>
+        <attributes delta="0">
+            <clef type="G" oct="-1" staff="1" position="4" id="20" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="21" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1004" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="5" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1004" />
+        </barline>
+        <attributes delta="0">
+            <clef type="C" staff="1" position="6" id="25" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="26" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1005" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="6" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1005" />
+        </barline>
+        <attributes delta="0">
+            <clef type="C" staff="1" position="8" id="30" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="31" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1006" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="7" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1006" />
+        </barline>
+        <attributes delta="0">
+            <clef type="F" staff="1" position="8" id="35" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="36" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1007" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="8" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1007" />
+        </barline>
+        <attributes delta="0">
+            <clef type="F" oct="1" staff="1" position="8" id="40" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="41" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1008" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="9" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1008" />
+        </barline>
+        <attributes delta="0">
+            <clef type="F" oct="-1" staff="1" position="8" id="45" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="46" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1009" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="10" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1009" />
+        </barline>
+        <attributes delta="0">
+            <clef type="G" oct="-2" staff="1" position="4" id="50" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="51" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1010" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="11" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1010" />
+        </barline>
+        <attributes delta="0">
+            <clef type="G" oct="-1" staff="1" position="4" id="55" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="56" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1011" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="12" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1011" />
+        </barline>
+        <attributes delta="0">
+            <clef type="C" staff="1" position="2" id="60" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="61" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1012" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="13" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1012" />
+        </barline>
+        <attributes delta="0">
+            <clef type="C" staff="1" position="4" id="65" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="66" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1013" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="14" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1013" />
+        </barline>
+        <attributes delta="0">
+            <clef type="C" oct="-1" staff="1" position="8" id="70" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="71" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1014" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="15" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1014" />
+        </barline>
+        <attributes delta="0">
+            <clef type="C" staff="1" position="10" id="75" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="76" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1015" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="16" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1015" />
+        </barline>
+        <attributes delta="0">
+            <clef type="F" oct="2" staff="1" position="8" id="80" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="81" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1016" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="17" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1016" />
+        </barline>
+        <attributes delta="0">
+            <clef type="F" oct="-2" staff="1" position="8" id="85" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="86" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="1017" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="18" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="1017" />
+        </barline>
+        <attributes delta="0">
+            <clef type="F" staff="1" position="6" id="90" />
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="91" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="92" />
+            <barline_tok type="heavy" id="93" />
+        </barline>
+    </measure>
+</score>

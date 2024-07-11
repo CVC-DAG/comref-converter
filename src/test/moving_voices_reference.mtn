@@ -1,0 +1,122 @@
+<score id="moving_voices">
+    <measure part_id="P1" measure_id="1" staves="2">
+        <attributes delta="0">
+            <clef type="G" staff="1" position="4" id="1" />
+            <clef type="F" staff="2" position="8" id="2" />
+            <time_signature staff="1">
+                <numerator>
+                    <number type="4" id="5" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="6" />
+                </denominator>
+            </time_signature>
+            <time_signature staff="2">
+                <numerator>
+                    <number type="4" id="7" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="8" />
+                </denominator>
+            </time_signature>
+        </attributes>
+        <!--  ================= CORRECTED ================= -->
+        <rest delta="0">
+            <rest type="whole" staff="2" id="37" />
+        </rest>
+        <!--  ================= CORRECTED ================= -->
+        <note_group delta="0">
+            <beam id="11" />
+            <chord delta="0">
+                <stem type="down" id="9" />
+                <note>
+                    <notehead type="black" staff="1" position="6" id="10" />
+                </note>
+            </chord>
+            <chord delta="1/2">
+                <stem type="up" id="13" />
+                <note>
+                    <notehead type="black" staff="2" position="-8" id="14" />
+                </note>
+            </chord>
+            <chord delta="1">
+                <stem type="up" id="15" />
+                <note>
+                    <notehead type="black" staff="2" position="-4" id="16" />
+                </note>
+            </chord>
+            <chord delta="3/2">
+                <stem type="down" id="17" />
+                <note>
+                    <notehead type="black" staff="1" position="13" id="18" />
+                </note>
+            </chord>
+        </note_group>
+        <!--  ================= CORRECTED ================= -->
+        <attributes delta="1/2">
+            <clef type="F" staff="1" position="8" id="12" />
+            <clef type="G" staff="2" position="4" id="38" />
+        </attributes>
+        <!--  ================= CORRECTED ================= -->
+        <attributes delta="2">
+            <clef type="G" staff="1" position="4" id="19" />
+        </attributes>
+        <!--  ================= CORRECTED ================= -->
+        <note_group delta="2">
+            <beam id="22" />
+            <beam id="23" />
+            <chord delta="2">
+                <stem type="down" id="20" />
+                <note>
+                    <notehead type="black" staff="1" position="-2" id="21" />
+                </note>
+            </chord>
+            <chord delta="9/4">
+                <stem type="up" id="24" />
+                <note>
+                    <notehead type="black" staff="2" position="-9" id="25" />
+                </note>
+            </chord>
+            <chord delta="5/2">
+                <stem type="down" id="26" />
+                <note>
+                    <notehead type="black" staff="1" position="-2" id="27" />
+                </note>
+            </chord>
+            <chord delta="11/4">
+                <stem type="up" id="28" />
+                <note>
+                    <notehead type="black" staff="2" position="-7" id="29" />
+                </note>
+            </chord>
+            <chord delta="3">
+                <stem type="down" id="30" />
+                <note>
+                    <notehead type="black" staff="1" position="-2" id="31" />
+                </note>
+            </chord>
+            <chord delta="7/2">
+                <stem type="down" id="33" />
+                <note>
+                    <notehead type="black" staff="1" position="-2" id="34" />
+                </note>
+            </chord>
+            <chord delta="15/4">
+                <stem type="down" id="35" />
+                <note>
+                    <notehead type="black" staff="1" position="-1" id="36" />
+                </note>
+            </chord>
+        </note_group>
+        <!--  ================= CORRECTED ================= -->
+        <rest delta="13/4">
+            <rest type="16th" staff="1" id="32" />
+        </rest>
+        <!--  ================= CORRECTED ================= -->
+        <barline delta="4">
+            <barline_tok type="regular" id="39" />
+            <barline_tok type="heavy" id="40" />
+        </barline>
+        <!--  ================= CORRECTED ================= -->
+    </measure>
+</score>

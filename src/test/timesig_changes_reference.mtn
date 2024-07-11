@@ -1,0 +1,116 @@
+<score id="timesig_changes">
+    <measure part_id="P1" measure_id="1" staves="1">
+        <barline delta="0">
+            <barline_tok type="heavy" id="2" />
+            <barline_tok type="regular" id="3" />
+            <repeat type="forward" id="1" />
+        </barline>
+        <attributes delta="0">
+            <clef type="G" staff="1" position="4" id="4" />
+            <time_signature staff="1">
+                <numerator>
+                    <number type="3" id="7" />
+                </numerator>
+                <denominator>
+                    <number type="4" id="8" />
+                </denominator>
+            </time_signature>
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <stem type="down" id="10" />
+                <note>
+                    <notehead type="white" staff="1" position="6" id="11" />
+                    <dot id="9" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="3">
+            <barline_tok type="heavy" id="16" />
+            <barline_tok type="regular" id="17" />
+            <repeat type="forward" id="15" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="2" staves="1">
+        <barline delta="0">
+            <barline_tok type="heavy" id="16" />
+            <barline_tok type="regular" id="17" />
+            <repeat type="forward" id="15" />
+        </barline>
+        <attributes delta="0">
+            <time_signature staff="1">
+                <timesig type="common" id="21" />
+            </time_signature>
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="22" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="24" />
+            <barline_tok type="heavy" id="25" />
+            <repeat type="backward" id="23" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="3" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="24" />
+            <barline_tok type="heavy" id="25" />
+            <repeat type="backward" id="23" />
+        </barline>
+        <attributes delta="0">
+            <time_signature staff="1">
+                <timesig type="cut" id="31" />
+            </time_signature>
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <note>
+                    <notehead type="white" staff="1" position="6" id="32" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="4">
+            <barline_tok type="regular" id="9999" />
+        </barline>
+    </measure>
+    <measure part_id="P1" measure_id="4" staves="1">
+        <barline delta="0">
+            <barline_tok type="regular" id="9999" />
+        </barline>
+        <attributes delta="0">
+            <time_signature staff="1">
+                <numerator>
+                    <number type="5" id="37" />
+                </numerator>
+                <denominator>
+                    <number type="8" id="38" />
+                </denominator>
+            </time_signature>
+        </attributes>
+        <note_group delta="0">
+            <chord delta="0">
+                <stem type="down" id="40" />
+                <note>
+                    <notehead type="black" staff="1" position="6" id="41" />
+                    <dot id="39" />
+                </note>
+            </chord>
+        </note_group>
+        <note_group delta="3/2">
+            <chord delta="3/2">
+                <stem type="down" id="42" />
+                <note>
+                    <notehead type="black" staff="1" position="6" id="43" />
+                </note>
+            </chord>
+        </note_group>
+        <barline delta="5/2">
+            <barline_tok type="regular" id="44" />
+            <barline_tok type="heavy" id="45" />
+        </barline>
+    </measure>
+</score>
