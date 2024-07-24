@@ -26,7 +26,7 @@ This project is the code associated with the article **A Unified Representation 
 
 ## Dataset
 
-The accompanying dataset can be downloaded from [here](https://datasets.cvc.uab.cat/comref/comref.zip).
+The accompanying dataset can be downloaded from [here](https://datasets.cvc.uab.cat/comref/comref.zip). **Note that the annotations have yet to be upgraded to the new 0.8 version of the converter!**.
 
 ## Getting started
 
