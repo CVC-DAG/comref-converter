@@ -9,14 +9,18 @@ This repository is a collection of tools that allow interaction with the MTN for
 This project is the code associated with the article **A Unified Representation Framework for the Evaluation of Optical Music Recognition Systems**, accepted for publication in the IJDAR-ICDAR track of 2024. If you find it useful, do not hesitate to cite the paper.
 
 ```bibtex
-@article{torras2024unified,
-  author  = {Torras, Pau AND Biswas, Sanket AND Fornes, Alicia},
-  title   = {A Unified Representation Framework for the Evaluation of Optical Music Recognition Systems},
-  journal = {International Journal of Document Analysis and Recognition},
-  year    = {2024},
-  volume  = {<TBA>},
-  number  = {<TBA>},
-  pages   = {<TBA>}
+@article{torrasUnifiedRepresentationFramework2024,
+  title = {A Unified Representation Framework for the Evaluation of {{Optical Music Recognition}} Systems},
+  author = {Torras, Pau and Biswas, Sanket and Forn{\'e}s, Alicia},
+  year = {2024},
+  month = jul,
+  journal = {International Journal on Document Analysis and Recognition (IJDAR)},
+  issn = {1433-2825},
+  doi = {10.1007/s10032-024-00485-8},
+  urldate = {2024-07-24},
+  abstract = {Modern-day Optical Music Recognition (OMR) is a fairly fragmented field. Most OMR approaches use datasets that are independent and incompatible between each other, making it difficult to both combine them and compare recognition systems built upon them. In this paper we identify the need of a common music representation language and propose the Music Tree Notation format, with the idea to construct a common endpoint for OMR research that allows coordination, reuse of technology and fair evaluation of community efforts. This format represents music as a set of primitives that group together into higher-abstraction nodes, a compromise between the expression of fully graph-based and sequential notation formats. We have also developed a specific set of OMR metrics and a typeset score dataset as a proof of concept of this idea.},
+  langid = {english},
+  keywords = {Computer vision,Datasets,Evaluation,Optical Music Recognition,Representation},
 }
 ```
 
