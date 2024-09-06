@@ -1,0 +1,24 @@
+\begin{tikzpicture}[align=center]
+  	\begin{axis}[
+    	axis lines = middle, % Draw the axes in the middle
+    	xlabel = {Completeness}, % Label for the x-axis
+    	ylabel = {Abstraction}, % Label for the y-axis
+    	nodes near coords,
+    	every node near coord/.append style={font=\small, anchor=south},
+    	point meta=explicit symbolic 
+  	]
+	    % Plot data points with cross markers
+	    \addplot[
+	      only marks,
+	      mark=x, % Set marker shape to cross
+	      mark size=3pt, % Adjust size of the cross marker
+	    ]
+	    coordinates {
+	  		(1, 2) [MIDI]
+	  		(2, 3) [MusicXML]
+	  		(3, 4) [MEI]
+	  		(4, 5) [kern]
+	  		(4, 5) [kern]
+		};
+	\end{axis}
+\end{tikzpicture}

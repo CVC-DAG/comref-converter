@@ -1,0 +1,14 @@
+\begin{center}
+\begin{tikzpicture}[align=center, node distance=3.5cm]
+	\node (meta) [normalnode, fill=cvcred!10] {Metadata Extraction};
+	\node (search) [normalnode, right of=meta, fill=cvcred!25] {Search};
+	\node (repl) [normalnode, right of=search, fill=cvcred!40] {Replayability};
+	\node (struct) [normalnode, right of=repl, fill=cvcred!55] {Structured Encoding};
+	
+	\draw [arrow] (meta) -- (search);
+	\draw [arrow] (search) -- (repl);
+	\draw [arrow] (repl) -- (struct);
+	
+	\draw[->,ultra thick] (-1,-1)--(9,-1) node[right]{Comprehension};
+\end{tikzpicture}
+\end{center}

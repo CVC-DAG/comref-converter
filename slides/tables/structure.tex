@@ -1,0 +1,30 @@
+\begin{table*}[ht]
+    \caption{Definition of the main abstract elements within MTN and the overall structure of the format. Each of the lowest levels of the notation contain the various final tokens.
+    For more information, refer to the implementation of the format.}
+    \label{tab:structure}
+
+    \begin{tabularx}{\textwidth}{@{}p{1.8cm}p{1.8cm}p{1.8cm}X@{}}
+        \toprule
+        \textbf{Top Level} & \textbf{Level 1} & \textbf{Level 2} & \textbf{Definition}                                                                   \\
+        \midrule
+        Attributes         &                  &                  & Any semantic change the score goes through.                                           \\
+                           & Staff            &                  & Group of changes occuring on the same staff.                                          \\
+                           &                  & Clef             & A change of clef in the score.                                                        \\
+                           &                  & TimeSig          & A change of time signature in the score.                                              \\
+                           &                  & Key              & A change of key in the score.                                                         \\
+        \midrule
+        Barline            &                  &                  & A measure separator and its attached modifiers.                                       \\
+        \midrule
+        Direction          &                  &                  & A single playback directive.                                                          \\
+        \midrule
+        Note Group         &                  &                  & Group of notes tied together by at least one beam.                                    \\
+                           & Note Group       &                  & \textit{Note Groups can be nested, each owning one or more beams}           \\
+                           & Chord            &                  & Set of notes in unison attached to the same stem, if it exists.             \\
+                           &                  & Stem             & Stem direction information and beams or flags attached to it.                         \\
+                           &                  & Note             & A notehead and its attached modifiers.                                                \\
+        \midrule
+        Rest               &                  &                  & Rest token and its attached modifiers.                                                \\
+
+        \bottomrule
+    \end{tabularx}
+\end{table*}

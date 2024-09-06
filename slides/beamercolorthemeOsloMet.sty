@@ -1,0 +1,125 @@
+% Theme for Computer Vision Center presentations -- based on:
+% Theme for OsloMet – Oslo Metropolitan University
+%
+% Implemented by:
+% Nikolai Bjørnestøl Hansen (nikobjo@oslomet.no)
+% Martin Helsø (martibhe@math.uio.no)
+%
+% Modified by:
+% Pau Torras (ptorras@cvc.uab.cat)
+%
+% Version 11-10-2023 - CVC
+%
+% Also available at:
+% https://github.com/martinhelso/OsloMet
+
+
+\mode<presentation>
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% Define Colors %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Primary
+\definecolor{omyellow}{RGB}{255, 220, 0}
+
+\definecolor{cvcred}{RGB}{140, 36, 45}
+\definecolor{cvcgray}{RGB}{77, 79, 83}
+\definecolor{cvcwhite}{rgb}{1, 1, 1}
+\definecolor{cvcblack}{rgb}{0, 0, 0}
+
+\definecolor{cvclightgray}{cmyk}{0, 0, 0, 0.2}
+\definecolor{cvcblue}{RGB}{36, 114, 140}
+
+%% Secondary
+% \definecolor{omred}{RGB}{224, 45, 0}
+% \definecolor{omblue}{RGB}{0, 122, 204}
+
+%% Tertiary
+% \definecolor{omlightblue}{RGB}{64, 228, 255}
+% \definecolor{omdarkred}{RGB}{153, 0, 43}
+% \definecolor{omdarkblue}{RGB}{0, 0, 100}
+% \definecolor{omorange}{RGB}{255, 129, 0}
+
+%% Basic black/white/gray
+% \definecolor{omgray}{cmyk}{0, 0, 0, 0.2}
+% \definecolor{omblack}{rgb}{0, 0, 0}
+% \definecolor{omwhite}{rgb}{1, 1, 1}
+
+\colorlet{alert}{cvcred}
+\colorlet{beameralert}{alert}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% Set up Colors %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setbeamercolor*{normal text}{fg = cvcblack, bg = cvcwhite}
+\setbeamercolor*{alerted text}{fg=cvcred}
+\setbeamercolor*{example text}{fg=cvcblue}
+
+% We want \structure to give blue text,
+% but local structure elements to be yellow
+\setbeamercolor*{structure}{fg = cvcred}
+\setbeamercolor*{local structure}{fg = cvcred}
+
+% Many elements are black text on yellow background
+\setbeamercolor{cvc white on red}{fg = white, bg = cvcred}
+
+\setbeamercolor*{palette primary}{use=structure, fg=structure.fg}
+\setbeamercolor*{palette secondary}{use=structure,fg=structure.fg!75!cvcred}
+\setbeamercolor*{palette tertiary}{use=structure,fg=structure.fg!50!cvcred}
+\setbeamercolor*{palette quaternary}{fg=cvcred}
+
+\setbeamercolor*{palette sidebar secondary}{fg = cvcgray}
+\setbeamercolor*{palette sidebar quarternary}{fg = cvcgray}
+
+% All text elements should be in black,
+% even though structure color is blue
+\setbeamercolor{textlike}{parent = normal text}
+\setbeamercolor*{titlelike}{parent = textlike}
+
+\setbeamercolor*{title in head/foot}{parent=title}
+\setbeamercolor*{title in sidebar}{parent=title}
+
+\setbeamercolor*{author}{parent=textlike}
+\setbeamercolor*{author in head/foot}{parent=author}
+
+\setbeamercolor*{institute}{parent=textlike}
+\setbeamercolor*{institute in head/foot}{parent=institute}
+
+\setbeamercolor*{date}{parent=textlike}
+\setbeamercolor*{date in head/foot}{parent=date}
+
+\setbeamercolor*{section in toc}{parent=textlike}
+\setbeamercolor*{section in head/foot}{parent=section}
+
+\setbeamercolor*{headline}{parent = cvc white on red}
+\setbeamercolor*{footline}{parent = cvc white on red}
+
+\setbeamercolor*{block body}{bg = cvclightgray}
+\setbeamercolor*{block body alerted}{parent = block body}
+\setbeamercolor*{block body example}{parent = block body}
+\setbeamercolor*{block title}{parent=cvc white on red}
+\setbeamercolor*{block title alerted}{use = alerted text, bg=alerted text.fg, fg = cvcwhite}
+\setbeamercolor*{block title example}{use = example text, bg = example text.fg, fg = cvcwhite}
+
+\setbeamercolor*{item projected}{parent = cvc white on red}
+
+% Local structure is yellow, but yellow-on-white doesn't work
+\setbeamercolor*{description item}{parent=structure}
+
+\setbeamercolor*{bibliography item}{fg=cvcblack}
+
+\setbeamercolor*{bibliography entry author}{parent = textlike}
+\setbeamercolor*{bibliography entry title}{parent = textlike}
+\setbeamercolor*{bibliography entry location}{parent = textlike}
+\setbeamercolor*{bibliography entry note}{parent = textlike}
+
+\setbeamercolor*{abstract title}{parent=titlelike}
+
+\setbeamercolor*{qed symbol}{parent = local structure}
+
+%% Title page and section page should be black on yellow
+\setbeamercolor*{title page}{parent = cvc white on red}
+\setbeamercolor*{section page}{parent = cvc white on red}
+\mode
+<all>
