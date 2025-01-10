@@ -10,8 +10,11 @@
 *.sublime-workspace
 *.egg-info
 *.json
+!pyrightconfig.json
 *.dat
 .coverage
 src/test/*_generated.mtn
 *.mscz~
 *.mscz.autosave
+/docs/_build
+/docs/_static

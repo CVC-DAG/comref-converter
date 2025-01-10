@@ -1,21 +1,21 @@
-"""The Common Optical Music Recognition Framework (COMReF) toolset.
-
+# The CWMN Optical Music Recognition Framework (COMREF) toolset.
+#
+# Copyright (C) 2023, Pau Torras <ptorras@cvc.uab.cat>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+"""
 Format conversion script.
-
-Copyright (C) 2023, Pau Torras <ptorras@cvc.uab.cat>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 import json
 import xml.etree.ElementTree as ET
@@ -105,6 +105,14 @@ def export_plaintext(
         f_out.write(data)
 
 
+def export_json(
+    data: Dict[Any, Any],
+    output_path: Path,
+) -> None:
+    with open(output_path, "w", encoding="utf8") as f_out:
+        json.dump({f"p{k[0]}_m{k[1]}": v for k, v in data.items()}, f_out)
+
+
 def load_feedback(feedback: Path) -> Set[comref.MeasureID]:
     """Load feedback file into the MeasureID format."""
     with open(feedback, "r", encoding="utf8") as f_in:
@@ -128,6 +136,7 @@ class ConversionFormat(Enum):
     CF_SEQ = "seq"
     CF_APT = "apt"
     CF_DOT = "dot"
+    CF_ABARO = "abaro"
 
 
 EXTENSIONS = {
@@ -138,6 +147,7 @@ EXTENSIONS = {
     ".seq": ConversionFormat.CF_SEQ,
     ".apt": ConversionFormat.CF_APT,
     ".dot": ConversionFormat.CF_DOT,
+    ".abaro": ConversionFormat.CF_ABARO,
 }
 
 
@@ -147,6 +157,7 @@ PREPROCESSORS: Dict[ConversionFormat, Callable] = {
     ConversionFormat.CF_MEI: __identity,
     ConversionFormat.CF_MTN: preprocess_unzipped_mtn,
     ConversionFormat.CF_SEQ: __identity,
+    ConversionFormat.CF_ABARO: __identity,
 }
 
 EXPORTERS = {
@@ -157,6 +168,7 @@ EXPORTERS = {
     ConversionFormat.CF_SEQ: export_seq,
     ConversionFormat.CF_APT: export_plaintext,
     ConversionFormat.CF_DOT: export_plaintext,
+    ConversionFormat.CF_ABARO: export_json,
 }
 
 
@@ -176,6 +188,7 @@ FORMAT_VISITORS = {
     ConversionFormat.CF_SEQ: comref.VisitorToModelSequence,
     ConversionFormat.CF_APT: comref.VisitorToAPTED,
     ConversionFormat.CF_DOT: comref.VisitorToDOT,
+    ConversionFormat.CF_ABARO: comref.VisitorToABaro,
 }
 
 

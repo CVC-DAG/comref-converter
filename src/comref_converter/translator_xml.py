@@ -1,25 +1,26 @@
-"""The Common Optical Music Recognition Framework (COMReF) toolset.
-
-Implementation of an xml MTN loader.
-
-Copyright (C) 2023, Pau Torras <ptorras@cvc.uab.cat>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# The CWMN Optical Music Recognition Framework (COMREF) toolset.
+#
+# Copyright (C) 2023, Pau Torras <ptorras@cvc.uab.cat>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+"""
+Implementation of loading of the XML representation of MTN.
 """
 
 from fractions import Fraction
-from typing import Any, Callable, Dict, List, Optional, Set, Type, TypeVar, Union, cast
+from typing import (Any, Callable, Dict, List, Optional, Set, Type, TypeVar,
+                    Union, cast)
 from xml.etree import ElementTree as ET
 
 from .mtn import ast as AST

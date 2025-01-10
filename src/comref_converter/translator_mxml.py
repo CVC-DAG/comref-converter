@@ -1,21 +1,21 @@
-"""The Common Optical Music Recognition Framework (COMReF) toolset.
-
-Implementation for the translator from MXML to MTN.
-
-Copyright (C) 2023, Pau Torras <ptorras@cvc.uab.cat>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# The CWMN Optical Music Recognition Framework (COMREF) toolset.
+#
+# Copyright (C) 2023, Pau Torras <ptorras@cvc.uab.cat>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+"""
+Conversor from MusicXML to MTN.
 """
 
 from copy import deepcopy
@@ -2002,9 +2002,24 @@ class TranslatorMXML(Translator):
         return output, staff
 
     @staticmethod
-    def _extract_beats_and_type(
-        node: ET.Element,
-    ) -> Tuple[List[str], List[str]]:
+    def _extract_beats_and_type(node: ET.Element) -> Tuple[List[str], List[str]]:
+        """Extract the beat and beat_type elements from a time node.
+
+        Compound time signatures are defined in MusicXML by a sequence of "beat" and
+        "beat_type" nodes. The point is that complex time signatures can be defined
+        adding various smaller ones. This function gathers them and converts them to
+        aligned lists of strings with their contents for further processing.
+
+        Parameters
+        ----------
+        node : ET.Element
+            The time element in a MusicXML file.
+
+        Returns
+        -------
+        Tuple[List[str], List[str]]
+            Two lists containing the number of beats and beat type aligned.
+        """
         beats = [x.text for x in node.findall("beats") if x.text is not None]
         beat_type = [x.text for x in node.findall("beat-type") if x.text is not None]
 
