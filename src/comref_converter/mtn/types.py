@@ -183,6 +183,7 @@ class NoteheadType(Enum):
     NH_TRIANGLE = "triangle"
     NH_INVERTED_TRIANGLE = "inverted-triangle"
     NH_DIAMOND = "diamond"
+    NH_SLASH = "slash"
 
     # Less common types -- future support
     # NH_ARROW_DOWN = "arrow_down"

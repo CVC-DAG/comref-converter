@@ -41,12 +41,16 @@ REST2NTYPE = {
     TT.NoteType.NT_16TH: "16th",
     TT.NoteType.NT_32ND: "32th",
     TT.NoteType.NT_64TH: "64th",
+    TT.NoteType.NT_BREVE: "breve",
+    TT.NoteType.NT_LONG: "long",
 }
 
 ACCID2STR = {
     TT.AccidentalType.ACC_SHARP: "sharp",
     TT.AccidentalType.ACC_FLAT: "flat",
     TT.AccidentalType.ACC_NATURAL: "natural",
+    TT.AccidentalType.ACC_DOUBLE_FLAT: "doubleFlat",
+    TT.AccidentalType.ACC_DOUBLE_SHARP: "doubleSharp",
 }
 
 BARLINE2STRING = {
@@ -139,8 +143,10 @@ class VisitorToABaro(AST.Visitor):
 
     def visit_chord(self, chord: AST.Chord) -> List[str]:
         """Perform visiting operation on Chord node."""
-        if self.last_time >= chord.delta:
-            raise ABaroExportError("ABaro exporter supports only monophonic works")
+
+        # Grace notes count to a time increment of zero, so they can be accepted.
+        if self.last_time > chord.delta:
+            raise ABaroExportError("ABaro exporter supports only homophonic works")
         self.last_time = chord.delta
 
         output = []
@@ -248,6 +254,8 @@ class VisitorToABaro(AST.Visitor):
         nhtype = notehead.modifiers["type"]
         if nhtype == TT.NoteheadType.NH_BLACK:
             nhead = "Black"
+        elif nhtype == TT.NoteheadType.NH_SLASH:
+            nhead = "Slash"
         elif nhtype == TT.NoteheadType.NH_WHITE and chord.stem is None:
             nhead = "Whole"
         elif nhtype == TT.NoteheadType.NH_WHITE and chord.stem is not None:
@@ -266,8 +274,8 @@ class VisitorToABaro(AST.Visitor):
 
         # Dots again go afterward.
         if len(rest.dots) > 0:
-            for dot in rest.dots:
-                output.extend(dot.accept(self))
+            for _ in rest.dots:
+                output.extend(["dot.noNote"])
             output.append(EPSILON)
 
         return output
@@ -348,23 +356,27 @@ class VisitorToABaro(AST.Visitor):
     def visit_time_signature(self, time_signature: AST.TimeSignature) -> List[str]:
         """Perform visiting operation on TimeSignature node."""
         output = []
+
+        time_symbol = time_signature.time_symbol
         time_fraction = time_signature.compound_time_signature
-        if time_signature.time_symbol is not None:
+
+        if time_symbol is not None:
             output.extend(
                 [
-                    self._generate_time_symbol(time_signature.time_symbol),
+                    self._generate_time_symbol(time_symbol),
                     EPSILON,
                 ]
             )
 
-        elif (
-            time_fraction is not None
-            and len(time_fraction) == 1
-            and isinstance(time_fraction[0], AST.Fraction),
-        ):
-            output.extend(time_fraction[0].accept(self))
+        elif time_fraction is not None:
+            if len(time_fraction) == 1 and isinstance(
+                time_fraction[0], AST.TimesigFraction
+            ):
+                output.extend(time_fraction[0].accept(self))
+            else:
+                raise ABaroExportError("Unsupported time signature")
         else:
-            raise ABaroExportError("Unsupported time signature")
+            return []
         return output
 
     def _generate_time_symbol(self, time_symbol: AST.Token) -> str:
@@ -390,6 +402,8 @@ class VisitorToABaro(AST.Visitor):
 
     def visit_clef(self, clef: AST.Clef) -> List[str]:
         """Perform visiting operation on Clef node."""
+        if clef.clef_token is None:
+            return []
         return [f"{clef.sign.name}-Clef.{self._pitch2line(clef.position)}", EPSILON]
 
     def visit_direction(self, direction: AST.Direction) -> List[str]:

@@ -110,7 +110,7 @@ def export_json(
     output_path: Path,
 ) -> None:
     with open(output_path, "w", encoding="utf8") as f_out:
-        json.dump({f"p{k[0]}_m{k[1]}": v for k, v in data.items()}, f_out)
+        json.dump({f"p{k[0]}_m{k[1]}": v for k, v in data.items()}, f_out, indent=4)
 
 
 def load_feedback(feedback: Path) -> Set[comref.MeasureID]:
@@ -141,7 +141,7 @@ class ConversionFormat(Enum):
 
 EXTENSIONS = {
     ".mxl": ConversionFormat.CF_MXML,
-    ".xml": ConversionFormat.CF_UNZIPPED_MXML,
+    ".musicxml": ConversionFormat.CF_UNZIPPED_MXML,
     ".mei": ConversionFormat.CF_MEI,
     ".mtn": ConversionFormat.CF_MTN,
     ".seq": ConversionFormat.CF_SEQ,

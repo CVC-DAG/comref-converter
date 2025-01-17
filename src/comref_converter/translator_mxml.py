@@ -78,6 +78,7 @@ ACCIDENTAL_MXML2MTN: Dict[MXML.TT.AccidentalValue, MTN.TT.AccidentalType] = {
 NHEAD_MXML2MTN: Dict[MXML.TT.NoteheadValue, MTN.TT.NoteheadType] = {
     MXML.TT.NoteheadValue.X: MTN.TT.NoteheadType.NH_CROSS,
     MXML.TT.NoteheadValue.CROSS: MTN.TT.NoteheadType.NH_CROSS,
+    MXML.TT.NoteheadValue.SLASH: MTN.TT.NoteheadType.NH_SLASH,
     MXML.TT.NoteheadValue.DIAMOND: MTN.TT.NoteheadType.NH_DIAMOND,
     MXML.TT.NoteheadValue.TRIANGLE: MTN.TT.NoteheadType.NH_TRIANGLE,
     MXML.TT.NoteheadValue.INVERTED_TRIANGLE: MTN.TT.NoteheadType.NH_INVERTED_TRIANGLE,
