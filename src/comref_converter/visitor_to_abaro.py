@@ -36,6 +36,7 @@ FLAGSBEAMS2NTYPE = {
 
 REST2NTYPE = {
     TT.NoteType.NT_HALF: "half",
+    TT.NoteType.NT_WHOLE: "whole",
     TT.NoteType.NT_QUARTER: "quarter",
     TT.NoteType.NT_EIGHTH: "eighth",
     TT.NoteType.NT_16TH: "16th",
